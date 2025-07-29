@@ -1,35 +1,32 @@
-# empleados_front
+# Gestión de Empleados - Frontend
 
-This template should help get you started developing with Vue 3 in Vite.
+Este es el frontend desarrollado en **Vue.js 3 + Vite** para la prueba técnica de Desarrollador de Soporte TI.
 
-## Recommended IDE Setup
+Se conecta a una API en Ruby on Rails para gestionar empleados.
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+---
 
-## Customize configuration
+##  Funcionalidades
 
-See [Vite Configuration Reference](https://vite.dev/config/).
+- Formulario para crear empleados (`EmpleadoForm.vue`)
+- Tabla de empleados (`EmpleadoList.vue`)
+- Filtros por nombre y área
+- Comunicación por props y eventos (`$emit`)
+- Manejo de errores básicos con `try/catch`
 
-## Project Setup
+---
 
-```sh
-npm install
-```
+##  Instrucciones para correr localmente
 
-### Compile and Hot-Reload for Development
+### 1. Clonar el repositorio
 
-```sh
-npm run dev
-```
+```bash
+git clone https://github.com/alex-123-rxz/gestion-empleados-front.git
+cd gestion-empleados-front
 
-### Compile and Minify for Production
+---
 
-```sh
-npm run build
-```
+##  Reflexión
 
-### Lint with [ESLint](https://eslint.org/)
+Durante esta prueba aprendí a integrar frontend y backend con Vue y Rails. Lo más difícil fue manejar el tiempo y los detalles de conexión entre los dos proyectos, pero al final logré completar una solución funcional.
 
-```sh
-npm run lint
-```
